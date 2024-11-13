@@ -1,0 +1,24 @@
+{
+  "name": "accounts-from-seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/accounts-from-seed.js --test",
+    "test:hardhat": "tsc && node dist/accounts-from-seed.js --test"
+  },
+  "keywords": [],
+  "author": "Sven Meyer, claude-3.5-sonnet-20241022",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/yargs": "^17.0.33",
+    "hardhat": "^2.22.15",
+    "typescript": "^5.6.3"
+  }
+}
